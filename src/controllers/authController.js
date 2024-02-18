@@ -47,7 +47,7 @@ export const register = (req, res) => {
             } else {
               return res
                 .status(200)
-                .json({ msg: "Cadastro enviado com sucesso!" });
+                .json({ msg: "Cadastro feito com sucesso!" });
             }
           }
         );
